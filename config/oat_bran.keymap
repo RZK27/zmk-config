@@ -2,6 +2,10 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
