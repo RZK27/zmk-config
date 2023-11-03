@@ -224,28 +224,19 @@
 
         default_layer {
             bindings = <
-&trans  &kp O  &kp A  &kp T  &kp SPACE         &kp ENTER     &kp E         &kp I           &kp N  &trans
-               &kp H  &kp R                                                                &kp L  &kp S
+&mo 1  &kp O  &kp A  &kp T  &kp SPACE         &kp ENTER     &kp E         &kp I           &kp N  &to 1
+              &kp H  &kp R                                                                &kp L  &kp S
 
-                             &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT
+                            &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &kp ESC  &kp ENTER  &kp BSPC  &kp DEL  &kp LC(V)  &trans
+&trans  &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &kp ESC  &kp LC(Z)  &kp BSPC  &kp DEL  &kp LC(V)  &trans
                   &kp DOWN_ARROW  &kp TAB                                                 &kp LC(X)  &kp LC(C)
 
                                                    &trans   &trans     &trans    &trans
-            >;
-        };
-
-        layer_2 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans                                  &trans  &trans
-
-                                &trans  &trans  &trans  &trans
             >;
         };
     };
