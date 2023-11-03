@@ -116,10 +116,19 @@
 
         layer_1 {
             bindings = <
-&trans  &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &trans  &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_2  &kp NUMBER_1  &trans
-                  &kp DOWN_ARROW  &trans                                                              &kp NUMBER_8  &kp DELETE
+&trans  &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &kp ESCAPE  &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_2  &kp NUMBER_1  &trans
+                  &kp DOWN_ARROW  &mo 2                                                                   &kp NUMBER_8  &kp DELETE
 
-                                                   &trans  &trans         &trans        &trans
+                                                   &trans      &trans         &trans        &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans                                  &trans  &trans
+
+                                &trans  &trans  &trans  &trans
             >;
         };
     };
