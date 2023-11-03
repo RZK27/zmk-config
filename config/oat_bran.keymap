@@ -94,7 +94,6 @@
             key-positions = <3 2 6 7>;
             layers = <0>;
         };
-    };
 
         combo_1 {
             bindings = <&kp NUMBER_1>;
