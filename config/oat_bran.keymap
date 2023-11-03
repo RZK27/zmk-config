@@ -4,6 +4,21 @@
 / {
     combos {
         compatible = "zmk,combos";
+
+        combo_c {
+            bindings = <&kp C>;
+            key-positions = <2 7>;
+        };
+
+        combo_d {
+            bindings = <&kp D>;
+            key-positions = <3 6>;
+        };
+
+        combo_u {
+            bindings = <&kp U>;
+            key-positions = <1 8>;
+        };
     };
 
     keymap {
@@ -11,7 +26,19 @@
 
         default_layer {
             bindings = <
-&kp A  &kp O  &kp A  &kp T  &kp D  &kp C  &kp E  &kp I  &kp N  &kp A  &kp H  &kp R  &kp L  &kp S  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT
+&trans  &kp O  &kp A  &kp T  &kp SPACE         &kp ENTER     &kp E         &kp I           &kp N  &trans
+               &kp H  &kp R                                                                &kp L  &kp S
+
+                             &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp NUMBER_2  &kp NUMBER_1  &trans
+                &trans  &trans                                              &kp NUMBER_8  &trans
+
+                                &trans  &trans  &trans        &trans
             >;
         };
     };
