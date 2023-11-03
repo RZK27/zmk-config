@@ -181,13 +181,13 @@
 
         combo_scln {
             bindings = <&kp SEMICOLON>;
-            key-positions = <10 13>;
+            key-positions = <12 7>;
             layers = <0 3>;
         };
 
         combo_quot {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <11 12>;
+            key-positions = <10 13>;
             layers = <0 3>;
         };
 
@@ -205,7 +205,7 @@
 
         combo_minus {
             bindings = <&kp MINUS>;
-            key-positions = <5 8 7>;
+            key-positions = <12 11>;
             layers = <0 3>;
         };
 
@@ -217,7 +217,7 @@
 
         combo_grave {
             bindings = <&kp GRAVE>;
-            key-positions = <4 1 2>;
+            key-positions = <2 11>;
             layers = <0 3>;
         };
 
