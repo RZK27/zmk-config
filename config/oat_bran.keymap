@@ -8,21 +8,25 @@
         combo_c {
             bindings = <&kp C>;
             key-positions = <2 7>;
+            layers = <0>;
         };
 
         combo_d {
             bindings = <&kp D>;
             key-positions = <3 6>;
+            layers = <0>;
         };
 
         combo_u {
             bindings = <&kp U>;
             key-positions = <1 8>;
+            layers = <0>;
         };
 
         combo_m {
             bindings = <&kp M>;
             key-positions = <3 7>;
+            layers = <0>;
         };
 
         combo_g {
