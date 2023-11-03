@@ -226,6 +226,12 @@
             key-positions = <11 1 10>;
             layers = <0 3>;
         };
+
+        combo_esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2 3>;
+            layers = <0 3>;
+        };
     };
 
     keymap {
