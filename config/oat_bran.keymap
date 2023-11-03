@@ -11,15 +11,15 @@
             layers = <0 3>;
         };
 
-        combo_d {
-            bindings = <&kp D>;
-            key-positions = <2 7>;
+        combo_l {
+            bindings = <&kp L>;
+            key-positions = <2 6>;
             layers = <0 3>;
         };
 
         combo_u {
             bindings = <&kp U>;
-            key-positions = <2 6>;
+            key-positions = <2 7>;
             layers = <0 3>;
         };
 
