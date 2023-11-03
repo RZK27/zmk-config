@@ -160,6 +160,23 @@
             key-positions = <1 11 10>;
             layers = <0>;
         };
+
+        combo_, {
+            bindings = <&kp COMMA>;
+            key-positions = <2 3>;
+            layers = <0>;
+        };
+
+        combo_. {
+            bindings = <&kp PERIOD>;
+            key-positions = <6 7>;
+            layers = <0>;
+        };
+
+        combo_slsh {
+            bindings = <&kp SLASH>;
+            key-positions = <12 8>;
+        };
     };
 
     keymap {
