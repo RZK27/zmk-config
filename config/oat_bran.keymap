@@ -205,7 +205,7 @@
 
         combo_minus {
             bindings = <&kp MINUS>;
-            key-positions = <13 5>;
+            key-positions = <5 8 7>;
             layers = <0 3>;
         };
 
@@ -217,7 +217,7 @@
 
         combo_grave {
             bindings = <&kp GRAVE>;
-            key-positions = <10 4>;
+            key-positions = <4 1 2>;
             layers = <0 3>;
         };
 
