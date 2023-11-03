@@ -55,7 +55,7 @@
             key-positions = <3 6 7>;
         };
 
-        combo_j {
+        combo_k {
             bindings = <&kp K>;
             key-positions = <6 7 2>;
         };
@@ -75,7 +75,7 @@
             key-positions = <3 2 7>;
         };
 
-        combo_v {
+        combo_q {
             bindings = <&kp Q>;
             key-positions = <3 2 8>;
         };
