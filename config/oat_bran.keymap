@@ -19,6 +19,71 @@
             bindings = <&kp U>;
             key-positions = <1 8>;
         };
+
+        combo_m {
+            bindings = <&kp M>;
+            key-positions = <3 7>;
+        };
+
+        combo_g {
+            bindings = <&kp G>;
+            key-positions = <2 6>;
+        };
+
+        combo_f {
+            bindings = <&kp F>;
+            key-positions = <6 1>;
+        };
+
+        combo_p {
+            bindings = <&kp P>;
+            key-positions = <8 3>;
+        };
+
+        combo_w {
+            bindings = <&kp W>;
+            key-positions = <1 7>;
+        };
+
+        combo_y {
+            bindings = <&kp Y>;
+            key-positions = <2 8>;
+        };
+
+        combo_b {
+            bindings = <&kp B>;
+            key-positions = <3 6 7>;
+        };
+
+        combo_j {
+            bindings = <&kp K>;
+            key-positions = <6 7 2>;
+        };
+
+        combo_j {
+            bindings = <&kp J>;
+            key-positions = <6 7 1>;
+        };
+
+        combo_z {
+            bindings = <&kp Z>;
+            key-positions = <6 3 2>;
+        };
+
+        combo_x {
+            bindings = <&kp X>;
+            key-positions = <3 2 7>;
+        };
+
+        combo_v {
+            bindings = <&kp Q>;
+            key-positions = <3 2 8>;
+        };
+
+        combo_v {
+            bindings = <&kp V>;
+            key-positions = <3 2 6 7>;
+        };
     };
 
     keymap {
