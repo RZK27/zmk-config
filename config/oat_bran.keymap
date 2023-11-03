@@ -103,55 +103,55 @@
 
         combo_1 {
             bindings = <&kp NUMBER_1>;
-            key-positions = <1 8 13>;
+            key-positions = <1 10>;
             layers = <0>;
         };
 
         combo_2 {
             bindings = <&kp NUMBER_2>;
-            key-positions = <1 8 12>;
+            key-positions = <1 11>;
             layers = <0>;
         };
 
         combo_3 {
             bindings = <&kp NUMBER_3>;
-            key-positions = <1 13 8 12>;
+            key-positions = <1 4>;
             layers = <0>;
         };
 
         combo_4 {
             bindings = <&kp NUMBER_4>;
-            key-positions = <1 8 11>;
+            key-positions = <8 13>;
             layers = <0>;
         };
 
         combo_5 {
             bindings = <&kp NUMBER_5>;
-            key-positions = <1 8 13 11>;
+            key-positions = <8 12>;
             layers = <0>;
         };
 
         combo_6 {
             bindings = <&kp NUMBER_6>;
-            key-positions = <1 12 11 8>;
+            key-positions = <8 5>;
             layers = <0>;
         };
 
         combo_7 {
             bindings = <&kp NUMBER_7>;
-            key-positions = <1 12 8 13 11>;
+            key-positions = <1 8 10 13>;
             layers = <0>;
         };
 
         combo_8 {
             bindings = <&kp NUMBER_8>;
-            key-positions = <1 10 8>;
+            key-positions = <1 8 11 12>;
             layers = <0>;
         };
 
         combo_9 {
             bindings = <&kp NUMBER_9>;
-            key-positions = <1 8 10 13>;
+            key-positions = <1 8 4 5>;
             layers = <0>;
         };
 
