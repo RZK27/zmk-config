@@ -181,7 +181,7 @@
 
         combo_scln {
             bindings = <&kp SEMICOLON>;
-            key-positions = <12 8>;
+            key-positions = <10 13>;
             layers = <0 3>;
         };
 
