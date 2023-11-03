@@ -7,13 +7,13 @@
 
         combo_c {
             bindings = <&kp C>;
-            key-positions = <2 7>;
+            key-positions = <3 6>;
             layers = <0 3>;
         };
 
         combo_d {
             bindings = <&kp D>;
-            key-positions = <3 6>;
+            key-positions = <2 7>;
             layers = <0 3>;
         };
 
@@ -239,8 +239,8 @@
 
         default_layer {
             bindings = <
-&mo 1  &kp O  &kp A  &kp T  &kp SPACE         &kp ENTER     &kp E         &kp I           &kp N  &to 2
-              &kp H  &kp R                                                                &kp L  &kp S
+&mo 1  &kp O  &kp A  &kp T  &kp SPACE         &kp ENTER     &kp N         &kp E           &kp H  &to 2
+              &kp D  &kp R                                                                &kp S  &kp I
 
                             &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT
             >;
