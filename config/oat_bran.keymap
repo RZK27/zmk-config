@@ -100,6 +100,66 @@
             key-positions = <3 2 6 7>;
             layers = <0>;
         };
+
+        combo_1 {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <1 8>;
+            layers = <0>;
+        };
+
+        combo_2 {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <1 13>;
+            layers = <0>;
+        };
+
+        combo_3 {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <1 13 8>;
+            layers = <0>;
+        };
+
+        combo_4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <1 12>;
+            layers = <0>;
+        };
+
+        combo_5 {
+            bindings = <&kp NUMBER_5>;
+            key-positions = <1 12 8>;
+            layers = <0>;
+        };
+
+        combo_6 {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <1 12 13>;
+            layers = <0>;
+        };
+
+        combo_7 {
+            bindings = <&kp NUMBER_7>;
+            key-positions = <1 12 8 13>;
+            layers = <0>;
+        };
+
+        combo_8 {
+            bindings = <&kp NUMBER_8>;
+            key-positions = <1 10>;
+            layers = <0>;
+        };
+
+        combo_9 {
+            bindings = <&kp NUMBER_9>;
+            key-positions = <1 11>;
+            layers = <0>;
+        };
+
+        combo_0 {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <1 11 10>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -116,10 +176,10 @@
 
         layer_1 {
             bindings = <
-&trans  &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &kp ESCAPE  &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_2  &kp NUMBER_1  &trans
-                  &kp DOWN_ARROW  &mo 2                                                                   &kp NUMBER_8  &kp DELETE
+&trans  &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &kp ESC  &kp ENTER  &kp BSPC  &kp DEL  &kp LC(V)  &trans
+                  &kp DOWN_ARROW  &kp TAB                                                 &kp LC(X)  &kp LC(C)
 
-                                                   &trans      &trans         &trans        &trans
+                                                   &trans   &trans     &trans    &trans
             >;
         };
 
