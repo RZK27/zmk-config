@@ -103,13 +103,13 @@
 
         combo_1 {
             bindings = <&kp NUMBER_1>;
-            key-positions = <0 9>;
+            key-positions = <0 8>;
             layers = <0 3>;
         };
 
         combo_2 {
             bindings = <&kp NUMBER_2>;
-            key-positions = <0 10>;
+            key-positions = <0 9>;
             layers = <0 3>;
         };
 
@@ -121,13 +121,13 @@
 
         combo_4 {
             bindings = <&kp NUMBER_4>;
-            key-positions = <7 12>;
+            key-positions = <7 11>;
             layers = <0 3>;
         };
 
         combo_5 {
             bindings = <&kp NUMBER_5>;
-            key-positions = <7 11>;
+            key-positions = <7 10>;
             layers = <0 3>;
         };
 
@@ -139,13 +139,13 @@
 
         combo_7 {
             bindings = <&kp NUMBER_7>;
-            key-positions = <0 7 9 12>;
+            key-positions = <0 7 8 11>;
             layers = <0 3>;
         };
 
         combo_8 {
             bindings = <&kp NUMBER_8>;
-            key-positions = <0 7 10 11>;
+            key-positions = <0 7 10 9>;
             layers = <0 3>;
         };
 
@@ -163,67 +163,67 @@
 
         combo_, {
             bindings = <&kp COMMA>;
-            key-positions = <9 10>;
+            key-positions = <9 8>;
             layers = <0 3>;
         };
 
         combo_. {
             bindings = <&kp PERIOD>;
-            key-positions = <11 12>;
+            key-positions = <11 10>;
             layers = <0 3>;
         };
 
         combo_slsh {
             bindings = <&kp SLASH>;
-            key-positions = <7 11 12>;
+            key-positions = <7 11 10>;
             layers = <0 3>;
         };
 
         combo_scln {
             bindings = <&kp SEMICOLON>;
-            key-positions = <6 11>;
+            key-positions = <6 10>;
             layers = <0 3>;
         };
 
         combo_quot {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <9 12>;
+            key-positions = <9 10>;
             layers = <0 3>;
         };
 
         combo_left_brack {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <2 9>;
+            key-positions = <2 8>;
             layers = <0 3>;
         };
 
         combo_right_brack {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <5 12>;
+            key-positions = <5 11>;
             layers = <0 3>;
         };
 
         combo_minus {
             bindings = <&kp MINUS>;
-            key-positions = <10 11>;
+            key-positions = <3 8>;
             layers = <0 3>;
         };
 
         combo_eq {
             bindings = <&kp EQUAL>;
-            key-positions = <3 4>;
+            key-positions = <4 11>;
             layers = <0 3>;
         };
 
         combo_grave {
             bindings = <&kp GRAVE>;
-            key-positions = <1 10>;
+            key-positions = <1 9>;
             layers = <0 3>;
         };
 
         combo_bsls {
             bindings = <&kp BACKSLASH>;
-            key-positions = <0 9 10>;
+            key-positions = <0 9 8>;
             layers = <0 3>;
         };
 
@@ -239,19 +239,19 @@
 
         default_layer {
             bindings = <
-        &kp O  &kp A  &kp T  &kp SPACE         &kp ENTER     &kp N         &kp E           &kp H
-              &kp D  &kp R                                                                &kp S  &kp I
+  &kp O  &kp A  &kp T  &kp SPACE         &kp ENTER     &kp N         &kp E           &kp H
+         &kp D  &kp R                                                                &kp S  &kp I
 
-                            &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT
+                       &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT
             >;
         };
 
         nav_layer {
             bindings = <
-       &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &kp ESC  &kp LC(Z)  &kp BSPC  &kp DEL  &kp LC(V)
-                 &kp DOWN_ARROW  &kp TAB                                                 &kp LC(X)  &kp LC(C)
+  &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &kp ESC  &kp LC(Z)  &kp BSPC  &kp DEL  &kp LC(V)
+            &kp DOWN_ARROW  &kp TAB                                                 &kp LC(X)  &kp LC(C)
 
-                                                  &trans   &trans     &trans    &trans
+                                             &trans   &trans     &trans    &trans
             >;
         };
     };
