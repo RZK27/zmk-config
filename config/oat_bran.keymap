@@ -7,7 +7,7 @@
 
         combo_c {
             bindings = <&kp C>;
-            key-positions = <3 6>;
+            key-positions = <2 5>;
             layers = <0 3>;
         };
 
