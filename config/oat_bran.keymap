@@ -234,25 +234,5 @@
         };
     };
 
-    keymap {
-        compatible = "zmk,keymap";
-
-        default_layer {
-            bindings = <
-&mo 1  &kp O  &kp A  &kp T  &kp SPACE         &kp ENTER     &kp N         &kp E           &kp H  &to 2
-              &kp D  &kp R                                                                &kp S  &kp I
-
-                            &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT
-            >;
-        };
-
-        nav_layer {
-            bindings = <
-&mo 3  &kp LEFT  &kp UP_ARROW    &kp RIGHT_ARROW  &kp ESC  &kp LC(Z)  &kp BSPC  &kp DEL  &kp LC(V)  &to 0
-                 &kp DOWN_ARROW  &kp TAB                                                 &kp LC(X)  &kp LC(C)
-
-                                                  &trans   &trans     &trans    &trans
-            >;
-        };
     };
 };
