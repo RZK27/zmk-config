@@ -234,4 +234,16 @@
         };
     };
 
+    keymap {
+        compatible = "zmk,keymap";
+
+        layer_0 {
+            bindings = <
+&kp A  &kp O  &kp A  &kp T  &kp SPACE  &kp RET   &kp N     &kp E      &kp H  &key_repeat
+              &kp D  &kp R                                            &kp S  &kp I
+
+                            &kp LCTRL  &kp LGUI  &kp LALT  &kp RSHFT
+            >;
+        };
+    };
 };
