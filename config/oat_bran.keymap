@@ -163,7 +163,7 @@
 
         combo_, {
             bindings = <&kp COMMA>;
-            key-positions = <8 9>;
+            key-positions = <12 13>;
             layers = <0 3>;
         };
 
@@ -175,61 +175,61 @@
 
         combo_slsh {
             bindings = <&kp SLASH>;
-            key-positions = <10 11 6>;
+            key-positions = <12 8 13>;
             layers = <0 3>;
         };
 
         combo_scln {
             bindings = <&kp SEMICOLON>;
-            key-positions = <10 6>;
+            key-positions = <7 12>;
             layers = <0 3>;
         };
 
         combo_quot {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <8 11>;
+            key-positions = <13 10>;
             layers = <0 3>;
         };
 
         combo_left_brack {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <8 3>;
+            key-positions = <3 10>;
             layers = <0 3>;
         };
 
         combo_right_brack {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <4 11>;
+            key-positions = <6 13>;
             layers = <0 3>;
         };
 
         combo_minus {
             bindings = <&kp MINUS>;
-            key-positions = <9 10 8>;
+            key-positions = <4 10>;
             layers = <0 3>;
         };
 
         combo_eq {
             bindings = <&kp EQUAL>;
-            key-positions = <10 9 11>;
+            key-positions = <5 13>;
             layers = <0 3>;
         };
 
         combo_grave {
             bindings = <&kp GRAVE>;
-            key-positions = <9 1>;
+            key-positions = <2 11>;
             layers = <0 3>;
         };
 
         combo_bsls {
             bindings = <&kp BACKSLASH>;
-            key-positions = <1 8 9>;
+            key-positions = <1 10 11>;
             layers = <0 3>;
         };
 
         combo_esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <1 3 4 6>;
+            key-positions = <1 3 2>;
             layers = <0 3>;
         };
     };
